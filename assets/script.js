@@ -38,5 +38,18 @@ $(document).ready(function () {
   // Timer interval to recall the updateTimeBlock function every minute
   var timerInterval = setInterval(updateTimeBlock, 60000)
 
+  // Listener for the save buttons
+  $('.saveBtn').on("click", function () {
+
+    // Get the text from the textarea tag
+    var task = $(this).siblings('.description').val()
+
+    // Get div id value
+    var divID = $(this).parent().attr('id')
+
+    // Place user input into storage using key value of divID and text value of text
+    localStorage.setItem(divID, task)
+  })
+
 });
 
