@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   // Get current time and date variables
-  var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+  var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   var day = new Date().getDay()
   var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   var numMonth = new Date().getMonth()
@@ -34,6 +34,9 @@ $(document).ready(function () {
   }
 
   updateTimeBlock()
+
+  // Timer interval to recall the updateTimeBlock function every minute
+  var timerInterval = setInterval(updateTimeBlock, 60000)
 
 });
 
