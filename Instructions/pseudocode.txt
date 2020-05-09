@@ -1,17 +1,3 @@
-
-background color based on time
-    one loop could assign background color
-day's input
-    each hour could save to time in local storage
-    <div id="hour0"></div>
-
-// loop over rows using military time
-for (var i = 9; i < 17; i++) {
-    $("#hour" + i).text("You are in hour " + i);
-}
-_______________________________________________________________________
------------------------------------------------------------------------
-
 # HTML
 
 - In the .container, hard-code one time-block for each hour, 9-5
@@ -54,6 +40,7 @@ i.e.
   - Update the current date/time at the top of the page
   - Set up a click handler for the save button:
     - Get the value from the textarea in the block that is being saved
+      To set or get the text value of input or textarea elements, use the .val() method. 
     - Get the time (i.e. 9) of the time block that's being saved
     - Store the value from the textarea in localStorage, using the hour as the key
     
