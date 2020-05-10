@@ -7,7 +7,7 @@ This is a simple calendar application that allows the user to save events for ea
 
   [Day Planner](https://hlsorrells.github.io/Day-Planner/)
 
-  ![](assets/images/DayPlanner.gif)
+  ![](assets/Images/DayPlanner.gif)
 
 ## Table of Contents
 
@@ -84,7 +84,7 @@ The first task was to construct the current date for the last line of the jumbot
 ```javascript
     $('#currentDay').text(weekday[day] + ', ' + months[numMonth] + ' ' + day)
 ```
-![Day planner header image showing date format and styling](assets/images/day-planner-header.PNG)*Day planner header image showing date format and styling*
+![Day planner header image showing date format and styling](assets/Images/day-planner-header.PNG)*Day planner header image showing date format and styling*
 
 ### Time Loop
 Iteration through updating the color backgrounds of the hour blocks was a three-step process. The first step was to build a time loop function for the backgrounds. Next the function would need to be initially called when the page loaded. Finally, the setInterval function would need to recall the updateTimeBlock function every 60 seconds to ensure that as the current hour changed all of the hour block colors were updated.
@@ -151,11 +151,11 @@ My last task was to retrieve the stored date from local storage to make the web 
 
 ## Screenshots of Application
 
-![Day planner header image showing date format and styling](assets/images/day-planner-header.PNG)*Day planner header image showing date format and styling*
+![Day planner header image showing date format and styling](assets/Images/day-planner-header.PNG)*Day planner header image showing date format and styling*
 
-![Day planner body image showing the time block coloring](assets/images/day-planner-time-block-color.png)*Day planner body image showing the time block coloring*
+![Day planner body image showing the time block coloring](assets/Images/day-planner-time-block-color.png)*Day planner body image showing the time block coloring*
 
-![Day planner body image showing the color change over time](assets/images/day-planner-auto-color-change.png)*Day planner body image showing the color change over time*
+![Day planner body image showing the color change over time](assets/Images/day-planner-auto-color-change.png)*Day planner body image showing the color change over time*
 
 ## Author
 
