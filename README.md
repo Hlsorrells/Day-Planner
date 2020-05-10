@@ -153,7 +153,9 @@ My last task was to retrieve the stored date from local storage to make the web 
 
 ![Day planner header image showing date format and styling](assets/Images/day-planner-header.PNG)*Day planner header image showing date format and styling*
 
+
 ![Day planner body image showing the time block coloring](assets/Images/day-planner-time-block-color.png)*Day planner body image showing the time block coloring*
+
 
 ![Day planner body image showing the color change over time](assets/Images/day-planner-auto-color-change.png)*Day planner body image showing the color change over time*
 
